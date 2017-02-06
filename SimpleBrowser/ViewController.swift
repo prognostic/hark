@@ -39,7 +39,18 @@ class ViewController: UIViewController {
         guard let text:String = addressBar.text else {
             return
         }
-        loadURL(text)
+        if text.range(of: ".") != nil {
+            var finalString:String = text.lowercased()
+            if finalString.range(of: "http://") == nil {
+                finalString = "http://\(finalString)"
+            }
+            self.loadURL(finalString)
+        } else {
+            let searchStr = text.replacingOccurrences(of: " ", with: "+")
+            let finalString = "https://www.google.com/search?q=\(searchStr)"
+            self.loadURL(finalString)
+        }
+        
     }
     
     func loadURL(_ str:String) {

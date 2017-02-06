@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var addressBar: UITextField!
+    
+    @IBOutlet weak var infoLabel: UIWebView!
+    
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +26,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func goBack(_ sender: UIButton) {
+    }
 
+    @IBAction func goForward(_ sender: UIButton) {
+    }
+    
+    @IBAction func didTapGo(_ sender: UIButton) {
+    }
 }
 

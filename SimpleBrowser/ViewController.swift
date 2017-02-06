@@ -11,9 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var addressBar: UITextField!
-    
     @IBOutlet weak var infoLabel: UIWebView!
-    
     @IBOutlet weak var webView: UIWebView!
     
     override func viewDidLoad() {
@@ -27,12 +25,20 @@ class ViewController: UIViewController {
     }
 
     @IBAction func goBack(_ sender: UIButton) {
+        webView.goBack()
     }
 
     @IBAction func goForward(_ sender: UIButton) {
+        webView.goForward()
     }
     
     @IBAction func didTapGo(_ sender: UIButton) {
+        if addressBar.text == "" {
+            return
+        }
+        guard let text:String = addressBar.text else {
+            return
+        }
     }
 }
 

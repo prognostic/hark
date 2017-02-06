@@ -14,6 +14,8 @@
 		CEDB17C21E483CB30053913C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDB17C01E483CB30053913C /* LaunchScreen.storyboard */; };
 		CEDB17CD1E483CB40053913C /* SimpleBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB17CC1E483CB40053913C /* SimpleBrowserTests.swift */; };
 		CEDB17D81E483CB40053913C /* SimpleBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB17D71E483CB40053913C /* SimpleBrowserUITests.swift */; };
+		CEDB17E71E48CAF00053913C /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDB17E51E48CAF00053913C /* Icon-256.png */; };
+		CEDB17E81E48CAF00053913C /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDB17E61E48CAF00053913C /* Icon-512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CEDB17D31E483CB40053913C /* SimpleBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDB17D71E483CB40053913C /* SimpleBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBrowserUITests.swift; sourceTree = "<group>"; };
 		CEDB17D91E483CB40053913C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDB17E51E48CAF00053913C /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-256.png"; sourceTree = "<group>"; };
+		CEDB17E61E48CAF00053913C /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				CEDB17BB1E483CB30053913C /* Main.storyboard */,
 				CEDB17BE1E483CB30053913C /* Assets.xcassets */,
 				CEDB17C01E483CB30053913C /* LaunchScreen.storyboard */,
+				CEDB17E51E48CAF00053913C /* Icon-256.png */,
+				CEDB17E61E48CAF00053913C /* Icon-512.png */,
 				CEDB17C31E483CB30053913C /* Info.plist */,
 			);
 			path = SimpleBrowser;
@@ -237,6 +243,8 @@
 			files = (
 				CEDB17C21E483CB30053913C /* LaunchScreen.storyboard in Resources */,
 				CEDB17BF1E483CB30053913C /* Assets.xcassets in Resources */,
+				CEDB17E71E48CAF00053913C /* Icon-256.png in Resources */,
+				CEDB17E81E48CAF00053913C /* Icon-512.png in Resources */,
 				CEDB17BD1E483CB30053913C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

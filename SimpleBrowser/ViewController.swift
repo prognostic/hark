@@ -39,6 +39,13 @@ class ViewController: UIViewController {
         guard let text:String = addressBar.text else {
             return
         }
+        loadURL(text)
+    }
+    
+    func loadURL(_ str:String) {
+        let url = URL(string: str)!
+        let request = URLRequest(url: url)
+        webView.loadRequest(request)
     }
 }
 
